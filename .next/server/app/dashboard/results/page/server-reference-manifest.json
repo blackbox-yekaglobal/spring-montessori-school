@@ -1,0 +1,115 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "409fe796b79d60773c2f8f47f680f969b577d4b409": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getResults",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "40337ab384c0ad4e65489b10fba1ffbbc5f8b3f4b6": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createResult",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "4063126c4b44b9489e65710a63d6556962737ca787": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "approveResults",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "4092396cb31a624d4dcb1afa5325a68aaed01d1dbb": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "publishResults",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "00491063968cf5bab88f06e1222d76fb059a7cc444": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAcademicSessions",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "40c1d758b7834aef9536267981c9a3605b1072ad02": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getTerms",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "4082ba09fb8672a52a0a15e1f70b5ba4915803e8d7": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStudentList",
+      "filename": "src/lib/actions/students.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,82 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "40da92fb88296ec117c23e513b33d8aab4c8668c79": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getExaminations",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "407b7ca8a4beee8ed11dfd8e871de14d3943db681e": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createExam",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "40c970aa41fd304df451dd9f21970f1c4d0720329f": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteExam",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "00491063968cf5bab88f06e1222d76fb059a7cc444": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAcademicSessions",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}

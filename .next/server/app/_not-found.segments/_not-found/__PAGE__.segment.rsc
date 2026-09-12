@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+7:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+8:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+9:I[27201,["/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+b:I[39756,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+c:I[37457,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/_next/static/chunks/0oi9udwsbpa6v.css","style"]
+6:X
+e:X
+e:C
+0:{"buildId":"FF9Lt8eSBu-OFMPgyX2b_","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-gray-50 flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-6xl font-bold text-gray-300 mb-4","children":"404"}],["$","h2",null,{"className":"text-xl font-bold text-gray-900 mb-2","children":"Page Not Found"}],["$","p",null,{"className":"text-gray-600 mb-6","children":"The page you are looking for does not exist or has been moved."}],["$","div",null,{"className":"flex gap-3 justify-center","children":[["$","a",null,{"href":"/","className":"px-4 py-2 bg-green-600 text-white rounded-md text-sm font-medium hover:bg-green-700","children":"Go Home"}],["$","a",null,{"href":"/login","className":"px-4 py-2 bg-gray-100 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-200","children":"Login"}]]}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Spring Montessori School"}],["$","meta","1",{"name":"description","content":"Spring Montessori School — A Nigerian Primary and Secondary School Management System"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L9","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$6","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$6","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0oi9udwsbpa6v.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}],"notFound":[["$","div",null,{"className":"min-h-screen bg-gray-50 flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","div",null,{"className":"text-6xl font-bold text-gray-300 mb-4","children":"404"}],["$","h2",null,{"className":"text-xl font-bold text-gray-900 mb-2","children":"Page Not Found"}],["$","p",null,{"className":"text-gray-600 mb-6","children":"The page you are looking for does not exist or has been moved."}],["$","div",null,{"className":"flex gap-3 justify-center","children":[["$","a",null,{"href":"/","className":"px-4 py-2 bg-green-600 text-white rounded-md text-sm font-medium hover:bg-green-700","children":"Go Home"}],["$","a",null,{"href":"/login","className":"px-4 py-2 bg-gray-100 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-200","children":"Login"}]]}]]}]}],[]]}]}]}]]}],"isPartial":"$@f","staleTime":"$6","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
+4:null
+6:300
+11:true
+6:C
+10:0
+a:"$undefined"
+d:"$undefined"
+f:"$undefined"
+5:"$undefined"

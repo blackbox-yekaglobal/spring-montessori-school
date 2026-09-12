@@ -1,0 +1,60 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "600938ad27792539ebc4871db6e6d733aa9cae2407": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAttendanceByClass",
+      "filename": "src/lib/actions/attendance.ts"
+    },
+    "40d57427998a3a7747cbfc140fcb96293804c9c0b3": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "markAttendance",
+      "filename": "src/lib/actions/attendance.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "4082ba09fb8672a52a0a15e1f70b5ba4915803e8d7": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStudentList",
+      "filename": "src/lib/actions/students.ts"
+    }
+  },
+  "edge": {}
+}

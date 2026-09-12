@@ -1,0 +1,16 @@
+{
+  "node": {
+    "406f43a0797f69b90f0eefef1e0e0a98c35cc8729f": {
+      "workers": {
+        "app/(auth)/forgot-password/page": {
+          "moduleId": 36548,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "resetPassword",
+      "filename": "src/lib/auth/actions.ts"
+    }
+  },
+  "edge": {}
+}

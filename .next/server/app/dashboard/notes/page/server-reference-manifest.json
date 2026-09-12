@@ -1,0 +1,71 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "40886b9684c9848c7059d2419576065d8fae793e53": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getNotes",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "40821b9951582a66b3206234f28a235c0135435ad4": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createNote",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "405b277ed5ee4e61b708684a10bf428311e291bc99": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteNote",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}

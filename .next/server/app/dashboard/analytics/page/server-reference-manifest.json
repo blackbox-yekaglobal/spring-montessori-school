@@ -1,0 +1,82 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "000d175f05f2c05491093ade313508aba723e4243d": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getRecentActivities",
+      "filename": "src/lib/actions/analytics.ts"
+    },
+    "00ab9191001b998805616a4a6e618bd4f1ee50f0ef": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getGenderDistribution",
+      "filename": "src/lib/actions/analytics.ts"
+    },
+    "00afc37a617d9546f69eee28bf73dd486c67886407": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getDashboardStats",
+      "filename": "src/lib/actions/analytics.ts"
+    },
+    "00bd7c4a5ea86093cabc8241cbfc114d2f33452f2f": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClassEnrollment",
+      "filename": "src/lib/actions/analytics.ts"
+    },
+    "00f0c7d484fb4c8f03deb65b4d319ba6e160a0d99c": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStaffByRole",
+      "filename": "src/lib/actions/analytics.ts"
+    },
+    "406e79861cb0086341633ba074343f6df814158fb3": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAttendanceTrend",
+      "filename": "src/lib/actions/analytics.ts"
+    }
+  },
+  "edge": {}
+}

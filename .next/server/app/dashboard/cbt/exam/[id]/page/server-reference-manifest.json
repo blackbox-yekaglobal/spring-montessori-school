@@ -1,0 +1,82 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "401934c6bce7e3ae540344271326ec0b673e64e4c9": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getExamById",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "40ef7da45afa1a87f2be8a89aa66e8289312a5a470": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getExamQuestions",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "40d5bef448dc161080c6476f4aca21214256cdc6f9": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getQuestions",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "7847b4d01fe619d47ff5dc74bc0ccee40d77d96379": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "addQuestionToExam",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "60c3955cf3af943f9a0a7bf5341859524689ec6e90": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "removeQuestionFromExam",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "607f86bf80a767c90126683a3bbbc4771921fd4d7e": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateExam",
+      "filename": "src/lib/actions/cbt.ts"
+    }
+  },
+  "edge": {}
+}

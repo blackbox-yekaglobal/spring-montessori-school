@@ -1,0 +1,71 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "40d5bef448dc161080c6476f4aca21214256cdc6f9": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getQuestions",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "40b9037a8c53a72b8a13c35da8522fa895a4792bce": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createQuestion",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "4095158b3f329b98284484f0a43cf80f994ba96597": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteQuestion",
+      "filename": "src/lib/actions/cbt.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}

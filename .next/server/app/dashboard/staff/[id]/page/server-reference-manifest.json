@@ -1,0 +1,126 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "40040f0e7d6726653844e9b0bf0c404552fdbceafd": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStaffList",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "403143928420c66cc3b1ffaac36df7de812bb0c86f": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "softDeleteStaff",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "4036a06c5c906fb0a584955d9902b23f9f6ff4d8c9": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createStaff",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "40cce07a4893726373cba4fa42bbf3093d3bfb029a": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deactivateStaff",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "40f269f2af33d2397f09038b3ab6229868f90891fd": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStaffById",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "40fcb3cbea5d4e2179076cca37da280faae8a74020": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStaffWithClasses",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "6001e956d361ab7fc16b14f4402dda0f2ab1b05fd6": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "assignTeacherToClass",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "609bf3748262290320ce6aa7a9791c35401bef7a86": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateStaff",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "60ca022b9202ccdacd14574adb2da068c967fdc29f": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "removeTeacherFromClass",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "70bc61f1dbead8bdc964a7d5d9b2e10ccf918ff2d4": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createStaffUserAccount",
+      "filename": "src/lib/actions/staff.ts"
+    }
+  },
+  "edge": {}
+}

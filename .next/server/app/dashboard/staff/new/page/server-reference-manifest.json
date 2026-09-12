@@ -1,0 +1,38 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/staff/new/page": {
+          "moduleId": 92582,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "4036a06c5c906fb0a584955d9902b23f9f6ff4d8c9": {
+      "workers": {
+        "app/dashboard/staff/new/page": {
+          "moduleId": 92582,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createStaff",
+      "filename": "src/lib/actions/staff.ts"
+    },
+    "609bf3748262290320ce6aa7a9791c35401bef7a86": {
+      "workers": {
+        "app/dashboard/staff/new/page": {
+          "moduleId": 92582,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateStaff",
+      "filename": "src/lib/actions/staff.ts"
+    }
+  },
+  "edge": {}
+}

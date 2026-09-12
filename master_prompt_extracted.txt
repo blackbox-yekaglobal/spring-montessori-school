@@ -1,0 +1,1574 @@
+MASTER DEVELOPMENT PROMPT
+Complete Web-Based School Management System
+You are a senior full-stack software architect and developer. Design and implement a production-ready single-school Web-Based School Management System for a Nigerian primary and secondary school.
+The system must be secure, scalable, responsive, maintainable, role-based, and designed for real-world school operations.
+Do not omit any requirement in this specification.
+Do not create unnecessary functionality outside the specification unless it is required for security, reliability, maintainability, accessibility, or proper implementation of an existing requirement.
+
+1. PROJECT OBJECTIVE
+Build a complete digital school management platform that combines:
+Public school website
+Student/Parent portal
+Teacher/Staff portal
+School Admin portal
+Super Admin portal
+Academic management
+Student management
+Staff management
+Attendance management
+Payment/fee tracking
+Timetable management
+Assignments/homework
+Digital notes/materials
+CBT examination system
+Question bank
+Mid-term examination
+End-of-term examination
+Automatic result generation
+E-result checking
+Scratch-card/token system
+Student/staff ID card management
+Announcements
+Notifications
+Email automation
+Advanced analytics
+Audit logging
+Offline examination/result recovery
+Secure role-based and class-based access control
+The application is initially for one school, not a multi-school SaaS platform.
+However, structure the codebase cleanly enough that multi-school support could be introduced in the future without completely rebuilding the system.
+
+2. REQUIRED TECHNOLOGY STACK
+Use:
+Frontend / Application
+Next.js
+TypeScript
+React
+Responsive web UI
+Backend / Database
+Supabase
+PostgreSQL
+Supabase Auth
+Supabase Storage
+Supabase Row Level Security
+Hosting
+Vercel
+Email
+Resend
+Use server-side operations wherever security or data integrity requires them.
+Do not rely on client-side authorization for security.
+
+3. APPLICATION STRUCTURE
+The application should contain:
+PUBLIC SCHOOL WEBSITE        +AUTHENTICATION        +STUDENT/PARENT PORTAL        +TEACHER/STAFF PORTAL        +SCHOOL ADMIN PORTAL        +SUPER ADMIN PORTAL
+These should feel like one integrated platform but each role must see an appropriate interface.
+
+4. PUBLIC SCHOOL WEBSITE
+Create a professional public-facing school website.
+Required sections:
+Home
+About
+Academics
+Admission
+News
+Events
+Gallery
+Contact
+Login
+E-Result Checker
+Also support:
+Online admission/application
+School information
+Academic information
+Admission requirements
+School announcements
+News
+Events
+Gallery
+Contact information
+Public result checking
+The public website should be CMS-driven where practical so authorized school administrators can update:
+News
+Events
+Gallery
+Admission information
+School announcements
+General school content
+without requiring a developer.
+
+5. AUTHENTICATION
+Implement secure authentication using Supabase Auth.
+Support appropriate:
+Login
+Logout
+Password reset
+Password recovery
+Account activation
+Session management
+Role-based access
+Do not expose sensitive credentials.
+Users must only access resources authorized for their role and scope.
+
+6. USER ROLES
+There are four primary access categories:
+1. SUPER ADMIN2. SCHOOL ADMIN3. TEACHER/STAFF4. STUDENT/PARENT
+
+7. SUPER ADMIN
+Super Admin represents the system/platform administrator.
+Super Admin has unrestricted access to school information and system-level functionality.
+Super Admin can:
+View all students
+Create students
+Edit students
+Delete students
+View all staff
+Create staff
+Edit staff
+Delete staff
+Assign staff roles
+Reassign staff roles
+Assign staff to classes
+Reassign staff to classes
+Assign teachers to subjects
+Manage classes
+Manage subjects
+Manage sessions
+Manage terms
+Manage system configuration
+Manage school configuration
+View all results
+Manage results
+View all attendance
+Manage attendance
+View assignments
+Manage assignments
+View notes
+Manage notes
+View CBT
+Manage CBT
+View question banks
+Manage question banks
+View payments
+Manage payment records
+Manage announcements
+Manage notifications
+View analytics
+View audit logs
+Manage ID cards
+Design ID cards
+Generate ID cards
+Export ID cards
+Manage scratch cards
+Generate scratch cards
+Assign scratch-card tokens to students
+View scratch-card history
+Manage system settings
+However, Super Admin actions must be treated specially regarding the normal school audit log.
+
+8. SCHOOL ADMIN
+School Admin has unrestricted school operational access.
+School Admin can:
+View all students
+Create students
+Edit students
+Delete students
+View all staff
+Create staff
+Edit staff
+Delete staff
+Assign/reassign staff roles
+Assign/reassign staff classes
+Assign/reassign subjects
+Manage classes
+Manage subjects
+Manage sessions
+Manage terms
+Manage attendance
+Manage payments
+Manage assignments
+Manage notes
+Manage CBT
+Manage question banks
+Manage examinations
+Manage results
+Manage announcements
+Manage notifications
+View analytics
+View school audit logs
+School Admin must NOT have access to:
+ID CARD MANAGEMENTSCRATCH CARD/TOKEN ASSIGNMENT
+These functions must not merely be disabled.
+They must be completely invisible in the School Admin interface.
+Also enforce this restriction server-side.
+
+9. SUPER ADMIN-ONLY FEATURES
+There are two explicitly restricted features.
+A. ID Card Management
+Only Super Admin can access:
+/super-admin/id-cards
+Normal Admin must not see the ID Card menu.
+Teacher must not see it.
+Student/Parent must not see it.
+Attempting to manually access the route must result in authorization failure.
+B. Scratch Card Management
+Only Super Admin can:
+Generate scratch cards
+View scratch cards
+Assign scratch cards to students
+Reassign where permitted
+View token status
+View attempt history
+Monitor exhausted cards
+Normal Admin must not see these options.
+Teachers must not see them.
+Students/parents must not see them.
+Enforce this on:
+UI
+Server actions
+API routes
+Database/RLS policies
+Never rely only on hidden frontend buttons.
+
+10. STUDENT/PARENT ACCOUNT MODEL
+Do NOT build completely separate student and parent portals.
+Use one unified Student/Parent access system.
+The underlying system should support family relationships so one parent/family account can be associated with multiple students.
+Example:
+Family Account    ├── Child 1    ├── Child 2    └── Child 3
+The user can switch between authorized children.
+Students should be able to access their own academic information.
+Parents should be able to access information belonging to their authorized children.
+Do not use literal shared credentials between parent and student if separate accountability is needed.
+Use proper account relationships and permissions.
+Student/Parent access can include:
+Attendance
+Results
+Assignments
+Notes
+Timetable
+CBT
+Announcements
+Notifications
+Payment/fee information
+
+11. STUDENT MANAGEMENT
+Implement complete student management.
+Student information should include appropriate fields such as:
+Student ID
+Admission number
+Full name
+Photograph
+Date of birth
+Gender
+Contact information where appropriate
+Address
+Guardian/parent relationship
+Admission information
+Current class
+Academic session
+Status
+Enrollment information
+Support:
+Create
+View
+Edit
+Delete
+Search
+Filter
+Class assignment
+Class reassignment
+Enrollment history
+Administrators can access all students.
+Teachers can only access students belonging to their assigned class/classes.
+
+12. STAFF MANAGEMENT
+Implement staff management.
+Staff records should support:
+Staff ID
+Full name
+Photograph
+Role
+Department where applicable
+Contact information
+Assigned classes
+Assigned subjects
+Employment/status information
+Support:
+Create
+View
+Edit
+Delete
+Search
+Filter
+Role assignment
+Class assignment
+Class reassignment
+Subject assignment
+Administrators have unrestricted access.
+Teachers should not manage staff records unless explicitly authorized.
+
+13. TEACHER CLASS ASSIGNMENT
+Every teacher who handles academic operations must be associated with one or more classes.
+Example:
+Teacher   ↓Assigned Class   ↓Students
+A teacher assigned to JSS1 A must only access students belonging to JSS1 A.
+If a teacher is assigned to multiple classes, they may access students in those classes.
+Class access must be checked server-side.
+
+14. TEACHER SUBJECT ASSIGNMENT
+Teachers should also be assigned to subjects/classes where appropriate.
+Example:
+Teacher:JohnClasses:JSS1 ASubjects:Mathematics
+Teacher access to subject-specific resources must be based on both:
+CLASS ASSIGNMENT+SUBJECT ASSIGNMENT
+This applies especially to:
+CBT question banks
+CBT examinations
+Assignments
+Notes
+Subject results
+
+15. CLASS MANAGEMENT
+Support:
+Primary 1–6
+JSS1–JSS3
+SS1–SS3
+Support class arms where required:
+JSS1 AJSS1 BJSS1 C
+Classes should be associated with:
+Academic session
+Students
+Class teacher
+Subjects
+Subject teachers
+Timetable
+
+16. ACADEMIC SESSION AND TERM
+Support academic sessions such as:
+2026/2027
+Terms:
+First TermSecond TermThird Term
+All academic records must be associated with the appropriate:
+Academic session
+Term
+Class
+Subject
+
+17. SUBJECT MANAGEMENT
+Administrators can:
+Create subjects
+Edit subjects
+Delete subjects
+Assign subjects to classes
+Assign teachers to subjects
+Teachers only access subjects assigned to them.
+
+18. STUDENT ENROLLMENT
+Students must be enrolled into a class for a particular academic session.
+Example:
+Student ↓2026/2027 ↓First Term ↓JSS1 A
+Maintain enrollment history so previous academic records remain correctly associated with their historical class/session.
+
+19. ATTENDANCE MANAGEMENT
+Implement attendance for:
+Students
+and
+Staff
+Both must support:
+Manual attendance
+QR-code attendance
+
+20. MANUAL ATTENDANCE
+Authorized staff should be able to search/select a person and record:
+PresentAbsentLateExcused
+Attendance should record:
+Person
+Date
+Time
+Status
+Attendance method
+Recorded by
+Class where applicable
+
+21. QR ATTENDANCE
+Each student and staff member should have a unique QR code.
+The QR code should contain a secure unique identifier/token.
+Do NOT place sensitive personal information directly inside the QR code.
+Flow:
+Scan QR ↓Resolve unique ID ↓Find student/staff ↓Display identity ↓Confirm attendance ↓Save record
+Store the method as:
+manualqr_scan
+The same QR infrastructure should support student and staff attendance.
+
+22. TIMETABLE
+Implement:
+Class timetable
+Teacher timetable
+Examination timetable
+Support:
+Day
+Time
+Subject
+Teacher
+Class
+Room where applicable
+Prevent conflicts such as:
+Teacher assigned to two classesat the same time.
+
+23. PAYMENT/FEE TRACKING
+Implement school payment tracking.
+This is initially a tracking system and does not require payment gateway processing unless added later.
+Support:
+School fees
+Examination fees
+PTA fees
+Other charges
+Invoices
+Amount due
+Amount paid
+Outstanding balance
+Payment history
+Receipts
+Use Nigerian Naira:
+₦
+Flow:
+Fee/Invoice ↓Amount Due ↓Payment ↓Amount Paid ↓Balance
+
+24. ASSIGNMENTS/HOMEWORK
+Teachers can manage assignments only for classes/subjects they are authorized to teach.
+Assignment fields:
+Title
+Description
+Subject
+Class
+Teacher
+Due date
+Marks
+Attachments
+Status
+Students can:
+View assignments
+Download attachments
+Submit work
+View submission status
+Teachers can:
+Create
+View
+Edit
+Delete
+Grade
+Give feedback
+View submissions
+Administrators can manage assignments across the school.
+
+25. DIGITAL NOTES / LEARNING MATERIALS
+Implement notes/material management.
+Teachers can CRUD notes only for their assigned class/subject.
+Support:
+Title
+Description
+Subject
+Class
+Topic
+Attachments
+Documents
+Images
+Other educational materials
+Students can access notes belonging to their class/subjects.
+Administrators can manage all notes.
+Use Supabase Storage for file storage.
+
+26. CBT / ONLINE EXAMINATION SYSTEM
+Build a complete CBT system.
+The CBT system must support:
+Question bank
+Topics
+Questions
+Options
+Correct answers
+Difficulty levels
+Classes
+Subjects
+Examination creation
+Examination scheduling
+Duration
+Question selection
+Student attempts
+Automatic marking
+Results
+Security monitoring
+Offline/local persistence
+Synchronization
+Result recovery
+
+27. QUESTION BANK
+Question hierarchy:
+Subject ↓Class ↓Topic ↓Difficulty ↓Question
+Initial question types:
+Multiple choice
+True/False
+Short answer
+MCQ should support:
+Question
+Options
+Correct option
+Marks
+Explanation if configured
+Teachers can CRUD questions only within their assigned classes/subjects.
+Administrators can CRUD all questions.
+
+28. CBT EXAM CREATION
+Teachers/admins can create exams.
+Exam properties:
+Exam title
+Subject
+Class
+Examination type
+Duration
+Start date/time
+End date/time where applicable
+Number of questions
+Marks
+Selected questions
+Instructions
+Status
+Published/unpublished
+Examination types must include:
+MID_TERMEND_OF_TERM
+
+29. CBT EXAM SECURITY / EXAM MODE
+When a student starts a CBT examination, enter a dedicated Exam Mode.
+The student should not intentionally leave the examination environment.
+Detect where technically possible:
+Browser tab switching
+Visibility change
+Browser/window losing focus
+Navigation away from exam
+Minimize/leave exam window
+Reload/attempted navigation
+Application switching where the browser/device can detect it
+A normal web application cannot guarantee complete operating-system-level application lockdown.
+Therefore implement browser-level detection and locking.
+For genuinely strict computer-lab lockdown, support deployment in a managed kiosk/browser environment.
+
+30. EXAM LOCK
+When a detectable violation occurs:
+Student ↓Leaves exam environment ↓Exam immediately LOCKS
+The student’s answers must first be preserved locally.
+Display:
+EXAM LOCKEDYour examination has been locked.Please contact your teacher/staff.Staff Unlock Code:[________][Unlock Exam]
+The student cannot unlock the examination themselves.
+
+31. STAFF EXAM UNLOCK
+A staff member must enter an authorized exam unlock code.
+Flow:
+Exam locked ↓Staff enters code ↓Server validates code ↓Exam unlocked ↓Student continues
+The unlock code must never be hard-coded into the frontend.
+Validate it server-side.
+Record every lock/unlock event.
+
+32. CBT SECURITY EVENTS
+Track events such as:
+TAB_SWITCHWINDOW_BLURVISIBILITY_CHANGENAVIGATION_ATTEMPTEXAM_LOCKEXAM_UNLOCK
+Record:
+Student
+Exam
+Attempt
+Event type
+Timestamp
+Locked time
+Unlocked time
+Staff who unlocked it
+Relevant metadata
+Do not silently overwrite previous violations.
+Maintain a history.
+
+33. CBT TIMER
+The examination timer must always be visible to the student.
+Example:
+TIME REMAINING42:17
+When less than 5 minutes remain:
+Timer becomes red
+Timer blinks/pulses
+Timer becomes visually prominent
+At:
+00:00
+the examination must automatically submit.
+
+34. AUTOMATIC SUBMISSION
+When the timer expires:
+Stop accepting answers
+Save the latest local state
+Attempt synchronization
+Submit the attempt
+Automatically mark the exam
+Generate the score
+Display the result to the student
+The student should not need to manually click Submit.
+
+35. STUDENT SCORE AFTER CBT
+Immediately after successful submission, show the student their score.
+Example:
+EXAM COMPLETEDMathematics Mid-TermScore: 78 / 100Percentage: 78%Examination submitted successfully.
+The school should be able to configure exactly how much result information students see.
+Possible information:
+Score
+Percentage
+Grade
+Correct answers
+Wrong answers
+Question review
+
+36. LOCAL CBT DATA STORAGE
+The CBT application must save student progress locally throughout the examination.
+Use IndexedDB rather than relying only on localStorage.
+Save:
+Attempt ID
+Exam ID
+Student ID
+Current question
+Answers
+Answered questions
+Local timestamps
+Remaining-time information
+Synchronization status
+Security state
+Last saved timestamp
+Answers should be saved frequently and preferably after every meaningful interaction.
+
+37. OFFLINE CBT SUPPORT
+Temporary network loss must not destroy the student’s performance.
+If internet connection is lost:
+⚠ No internet connectionYour answers are being saved on this device.You can continue the examination.
+The student should continue answering where the application architecture allows it.
+The system should continuously monitor connectivity.
+
+38. NETWORK STATUS
+Display network state:
+✓ Connected
+or:
+⚠ Offline
+Also show synchronization state where useful:
+Local: ✓ SavedServer: ⚠ Pending synchronizationNetwork: Offline
+When network returns:
+Connection restoredSynchronizing...
+Then:
+✓ All answers synchronized
+
+39. CBT SERVER SYNCHRONIZATION
+Use a reliable synchronization mechanism.
+Flow:
+Local Answer ↓IndexedDB ↓Network Available ↓Sync Queue ↓Supabase ↓Confirmation ↓Local Record = SYNCED
+Do not delete local data immediately after one upload attempt.
+Keep it until the server confirms successful persistence.
+
+40. FAILED CBT UPLOAD
+If an examination is completed while offline or synchronization fails:
+Display:
+EXAMINATION COMPLETEDYour performance is safely saved on this device.The result has not yet been synchronized with the server.[Re-upload Examination]
+The Re-upload Examination button must remain available until successful database synchronization.
+
+41. AUTOMATIC RETRY
+When internet becomes available, automatically retry pending synchronization.
+The user should also have a manual:
+Re-upload Examination
+button.
+Do not require the student to redo the examination.
+
+42. LOCAL PERFORMANCE DOWNLOAD
+Provide a function to download the student’s local examination performance.
+Support a structured recovery file, preferably JSON.
+The file should contain enough verified information to identify:
+Student
+Exam
+Attempt
+Answers
+Score where available
+Submission state
+Timestamps
+Synchronization state
+Integrity information
+Optionally provide a human-readable PDF performance report.
+
+43. UPLOAD LOCAL RESULT
+The Results page must provide an option for authorized staff/admin users to upload a locally saved result.
+Example:
+Results[Upload Local Result]
+Upload flow:
+Select file ↓Validate file ↓Verify student ↓Verify exam ↓Verify attempt ↓Verify integrity ↓Check duplicate ↓Import result ↓Update result records ↓Record audit event
+Do NOT allow arbitrary manual score files to bypass verification.
+
+44. DUPLICATE RESULT PROTECTION
+Every CBT attempt must have a unique identifier.
+If a local result has already been uploaded, uploading it again must not create another result.
+Example:
+Attempt ID: EXAM-2026-00192Status:Already synchronized
+Database constraints should protect against duplicate attempts/results.
+
+45. CBT RESULT AUTOMATION
+When a student completes a CBT:
+Student submits CBT       ↓Automatic marking       ↓CBT score stored       ↓Student result record updated       ↓Teacher Results page updated
+Teachers must not manually re-enter the CBT score.
+The CBT score should identify its source:
+Source: CBTGenerated automatically
+Do not allow normal teachers to arbitrarily modify the automatically generated CBT score.
+
+46. RESULTS PAGE
+The Teacher/Staff Results page must display all students in the teacher’s authorized class.
+Example:
+CLASS: JSS1 ASUBJECT: MATHEMATICSTERM: FIRST TERMStudent        CBT      CA       Final     Status--------------------------------------------------John Peter     78       20       98        AvailableMary James     92       18       110       AvailableDavid Paul     --       15       15        No CBTPeter Smith    65       20       85        Available
+Clearly distinguish:
+Students with results
+Students without results
+Students who did not take CBT
+Pending synchronization
+Awaiting marking
+Published results
+Teachers can see the students of their assigned class only.
+
+47. TEACHER RESULT ACCESS
+A teacher can manage results only for:
+Assigned Class+Assigned Subject
+A teacher cannot access another class’s private student result information.
+School Admin and Super Admin can access all results.
+
+48. MID-TERM EXAMINATION
+Every term must support a Mid-Term examination.
+Students should be able to see their mid-term result after it has been approved/published according to school workflow.
+Mid-term scores must be retained and available for final result generation.
+
+49. END-OF-TERM EXAMINATION
+Every term must support an End-of-Term examination.
+The end-of-term result must combine:
+Mid-term performance
+End-of-term examination
+Continuous assessment where configured
+Do not hard-code a final weighting until the school provides the official weighting.
+
+50. RESULT CONFIGURATION
+Make result calculation configurable.
+Allow administrators to configure:
+Assessment components
+Maximum marks
+Component weights
+Grade boundaries
+Pass mark
+Position/ranking
+Whether ranking is enabled
+Whether each component contributes to final result
+For example, the system may eventually use:
+Mid-Term: 30%End-Term: 70%
+but this must be configurable.
+Do not assume this is the final school policy.
+
+51. RESULT CALCULATION
+The result engine should calculate:
+CA+Mid-Term+End-Term=Configured Final Score
+according to the school’s configured assessment rules.
+Calculate where applicable:
+Subject score
+Percentage
+Grade
+Remark
+Overall average
+Position/ranking if enabled
+
+52. RESULT APPROVAL
+Results should support an approval workflow.
+Example:
+Teacher enters/manages scores       ↓Result calculated       ↓Submitted for approval       ↓Admin approves       ↓Published       ↓Student/Parent can view
+CBT results should be automatically generated, but publication may still follow the school’s result workflow.
+
+53. E-RESULT
+Create a public E-Result checker.
+Example route:
+/result
+Student enters:
+Student IDResult PIN / Token
+The system validates the scratch card/token.
+
+54. SCRATCH CARD SYSTEM
+Every result-checking token is tied to:
+Student
+Academic session
+Term
+Each scratch card has:
+Maximum attempts = 5
+Every successful result check consumes one attempt.
+Example:
+5 attempts remaining ↓Result check ↓4 remaining ↓Result check ↓3 remaining
+When:
+0 attempts remaining
+the card becomes:
+EXHAUSTED
+The student receives a new card according to school policy.
+
+55. SCRATCH CARD TABLE
+Use a structure similar to:
+result_scratch_cardsidstudent_idacademic_session_idterm_idcard_code/tokenmax_attemptsremaining_attemptsstatuscreated_atactivated_atexpires_at
+Prefer secure token handling.
+Do not casually expose raw tokens in the database/UI.
+
+56. RESULT ACCESS LOG
+Maintain a separate result access history.
+Example:
+result_access_logsidscratch_card_idstudent_idaccessed_atattempt_numberstatusIP where appropriateuser_agent where appropriate
+Every result access must consume an attempt according to the defined rules.
+Attempt deduction must happen server-side/database-side.
+Never trust a client-side counter.
+
+57. SCRATCH CARD SUPER ADMIN PAGE
+Create:
+/super-admin/scratch-cards
+Only Super Admin can see it.
+Features:
+Generate cards
+Assign card to student
+View active cards
+View exhausted cards
+View unused cards
+View history
+Search student
+Search card
+Filter by session
+Filter by term
+View attempts used
+View attempts remaining
+View assignment date
+View access history
+Normal Admin must not see this module.
+
+58. ID CARD MANAGEMENT
+Create a dedicated:
+/super-admin/id-cards
+page.
+Only Super Admin can access it.
+It should contain:
+StudentsStaff
+tabs/sections.
+
+59. STUDENT ID CARD
+Automatically populate:
+School logo
+School name
+Student photograph
+Student name
+Student ID
+Admission number where appropriate
+Class
+Academic session
+QR code
+
+60. STAFF ID CARD
+Automatically populate:
+School logo
+School name
+Staff photograph
+Staff name
+Staff ID
+Role/position
+Academic session
+QR code
+
+61. ID CARD DESIGN SYSTEM
+Super Admin should be able to design/configure ID cards.
+Support:
+Card layout
+Front design
+Back design where applicable
+Logo
+Background
+Text fields
+QR placement
+Photograph placement
+Student/staff fields
+Template management
+Templates should automatically populate information from database records.
+
+62. ID CARD GENERATION
+Support:
+Single card generation
+Select one student/staff member and generate their card.
+Multiple selection
+Allow selecting multiple records.
+Select all
+For example:
+Class: JSS1 A[Select All]
+Then generate all selected cards.
+
+63. ID CARD PDF EXPORT
+Support:
+Download Selected Cards
+Generate a print-friendly PDF containing all selected ID cards.
+Support:
+Single PDF
+Multiple cards
+Proper page layout
+Print dimensions
+High-quality output
+Front/back support where applicable
+
+64. AUDIT LOG
+Create a dedicated Audit Log page.
+Normal school administrative activities must be recorded.
+Audit log should monitor actions performed by school users.
+Include:
+User
+Role
+Action
+Item
+Item ID
+Student/record affected
+Date
+Time
+Metadata
+Previous value where applicable
+New value where applicable
+IP/user-agent where appropriate
+
+65. AUDIT LOG SEARCH/FILTER
+Provide:
+Date from
+Date to
+User
+Item
+Action
+Actions can include:
+CREATEUPDATEDELETEVIEWAPPROVEPUBLISHSUBMITGENERATEEXPORTLOGINLOGOUT
+Clicking a log should open detailed information.
+
+66. SUPER ADMIN AUDIT EXCLUSION
+Super Admin interactions must NOT appear in the normal school-facing audit log.
+This must be enforced server-side/database-side.
+Do not merely hide Super Admin logs from the UI.
+The normal:
+school_audit_logs
+should not receive Super Admin actions.
+If technical/security logging for Super Admin activity is desired, maintain a separate internal system/security log that is not part of the normal school audit-log interface.
+
+67. ANNOUNCEMENTS
+Administrators can create announcements.
+Target:
+Entire school
+Specific class
+Students/parents
+Teachers/staff
+Support:
+Title
+Content
+Target audience
+Publish date
+Expiry date
+Attachments
+Status
+
+68. NOTIFICATIONS
+Implement in-app notifications.
+Examples:
+New assignment
+New CBT
+Result published
+Payment update
+Announcement
+Admission update
+School notification
+Notifications should be linked to the appropriate user.
+
+69. EMAIL AUTOMATION WITH RESEND
+Use Resend for transactional emails.
+Do not scatter email-sending logic throughout random components.
+Create an email event architecture.
+Potential events:
+ADMISSION_RECEIVEDADMISSION_APPROVEDACCOUNT_CREATEDPASSWORD_RESETFEE_INVOICEPAYMENT_CONFIRMATIONPAYMENT_REMINDERRESULT_PUBLISHEDASSIGNMENT_CREATEDCBT_AVAILABLEANNOUNCEMENT_PUBLISHED
+Use structures similar to:
+email_eventsemail_logs
+Record:
+Event
+Recipient
+Template
+Status
+Sent timestamp
+Error where applicable
+
+70. ANALYTICS
+Create an advanced analytics dashboard.
+Analytics should be useful for decision-making rather than merely displaying decorative charts.
+Include:
+Student performance
+Average scores
+Grade distribution
+Improvement/decline
+Individual performance
+Class performance
+Class average
+Best/worst performing subjects
+Grade distribution
+Subject performance
+Subject average
+Pass rate
+Failure rate
+Performance trends
+Attendance
+Attendance rate
+Absence trends
+Late trends
+Student attendance patterns
+Class attendance patterns
+Assignments
+Submission rate
+Completion rate
+Late submissions
+CBT
+Average score
+Question performance
+Student performance
+Completion rate
+Exam statistics
+Payments
+Amount due
+Amount paid
+Outstanding balances
+Collection trends
+School management
+Student population
+Staff population
+Admissions
+Academic performance
+Attendance
+Fees
+
+71. ACTIONABLE ANALYTICS
+Where appropriate, identify useful patterns.
+For example:
+Attendance declining+Assignment completion declining+Academic performance declining
+could produce an administrative warning.
+Do not introduce unnecessary AI functionality unless specifically required later.
+
+72. DATABASE ARCHITECTURE
+The database should be designed around proper relational structures.
+Core tables should include at minimum:
+profilesrolespermissionsstudentsparentsteachersstaffstudent_parentsacademic_sessionstermsclassessubjectsclass_subjectsteacher_classesteacher_subjectsstudent_enrollmentsattendanceattendance_recordsfeesfee_itemsstudent_feespaymentstimetablesassignmentsassignment_submissionsnotesnote_attachmentsquestion_banksquestionsquestion_optionsexaminationsexamination_questionsexamination_attemptsexamination_answersexam_security_eventsexam_sync_recordsresult_configurationsresult_componentsstudent_resultsstudent_result_itemsresult_approvalsresult_scratch_cardsresult_access_logsannouncementsnotificationsemail_eventsemail_logsschool_audit_logsid_card_templatesid_card_generations
+Do not blindly create the final schema before validating all relationships and workflows.
+
+73. DATA RELATIONSHIPS
+Important relationships:
+Academic Session      ↓Term      ↓Class      ↓Students
+and:
+Teacher ↓Teacher-Class Assignment ↓Class ↓Students
+and:
+Teacher ↓Teacher-Subject-Class Assignment ↓Subject ↓CBT / Assignments / Notes / Results
+
+74. AUTHORIZATION ARCHITECTURE
+Use:
+RBAC
+Role-based access control:
+SUPER_ADMINSCHOOL_ADMINTEACHERSTUDENT_PARENT
+plus:
+Scope-based authorization
+Teachers are restricted according to:
+Assigned class
+Assigned subject
+Students/parents are restricted according to:
+Their own student record
+Authorized linked children
+Admins have school-wide access.
+Super Admin has system-level access.
+
+75. SUPABASE RLS
+Implement strong Supabase Row Level Security.
+Do not rely solely on Next.js frontend checks.
+Examples:
+A teacher querying students must only receive students belonging to assigned classes.
+A student must only receive their own data.
+A parent must only receive linked children’s data.
+A normal admin can access school-wide records.
+Super Admin can access system-level records.
+Super Admin-only tables/functions must have strict authorization.
+
+76. SERVER-SIDE SECURITY
+All sensitive operations must be validated server-side.
+Examples:
+Assign scratch card
+Generate ID card
+Upload local result
+Modify results
+Unlock CBT
+Assign staff roles
+Assign classes
+Modify student records
+Publish results
+Delete records
+Never trust:
+Hidden buttons
+Client-side roles
+URL parameters
+Client-provided student IDs
+Client-provided scores
+Client-provided attempt counters
+Client-provided authorization claims
+
+77. RESULT SECURITY
+A student must not be able to manipulate:
+Score
+Grade
+Attempts remaining
+Result ID
+Student ID
+Exam ID
+Submission status
+Use server/database validation.
+
+78. CBT SECURITY
+The CBT must protect against common manipulation attempts.
+At minimum:
+Server-side exam validation
+Server-side attempt validation
+Secure attempt IDs
+Server-side scoring validation
+Question authorization
+Time validation
+Lock-state validation
+Submission-state validation
+Duplicate submission protection
+Synchronization validation
+Result integrity validation
+
+79. OFFLINE DATA INTEGRITY
+Local CBT files/results must not automatically be trusted.
+When uploading local data:
+Validate ↓Authenticate ↓Verify student ↓Verify exam ↓Verify attempt ↓Verify integrity ↓Check duplicate ↓Persist
+Use cryptographic integrity mechanisms/signatures where appropriate.
+
+80. RESPONSIVE DESIGN
+The application must be responsive.
+Support:
+Desktop
+Laptop
+Tablet
+Mobile
+However, the CBT interface should prioritize:
+Desktop
+Laptop
+School computer laboratory environments
+The CBT screen should minimize unnecessary navigation and distractions.
+
+81. UI PRINCIPLES
+The UI should be:
+Professional
+Clean
+Modern
+Simple
+Fast
+Accessible
+Consistent
+Use clear dashboards and navigation.
+Do not overwhelm users with unnecessary information.
+Different roles should receive different navigation menus.
+
+82. ROLE-SPECIFIC NAVIGATION
+Example:
+Super Admin
+DashboardStudentsStaffClassesSubjectsAcademicsAttendancePaymentsTimetableAssignmentsNotesCBTResultsAnalyticsAnnouncementsNotificationsID CardsScratch CardsAudit LogsSystem Settings
+School Admin
+DashboardStudentsStaffClassesSubjectsAcademicsAttendancePaymentsTimetableAssignmentsNotesCBTResultsAnalyticsAnnouncementsNotificationsAudit Logs
+Do NOT show:
+ID CardsScratch Cards
+Teacher
+DashboardMy ClassesMy SubjectsStudentsAttendanceAssignmentsNotesQuestion BankCBTResultsTimetableAnnouncementsNotifications
+Only show data within assigned scope.
+Student/Parent
+DashboardMy Children / My ProfileTimetableAssignmentsNotesCBTResultsAttendancePaymentsAnnouncementsNotifications
+
+83. ADMIN REASSIGNMENT
+Administrators must be able to change:
+Staff role
+Staff class
+Staff subject
+Student class
+Student enrollment
+Example:
+Teacher AJSS1 A     ↓Admin reassigns     ↓JSS2 B
+After reassignment, authorization must immediately reflect the new assignment.
+
+84. TEACHER ACCESS MUST BE DYNAMIC
+Do not hard-code teacher/class relationships.
+If a teacher is assigned:
+JSS1 A
+they gain access to JSS1 A.
+If removed:
+JSS1 A
+they immediately lose access.
+This should be enforced through database relationships and authorization policies.
+
+85. RESULT PAGE STUDENT STATUS
+Teachers should be able to quickly identify:
+RESULT AVAILABLENO RESULTCBT NOT TAKENPENDING SYNCHRONIZATIONAWAITING MARKINGPUBLISHEDNOT PUBLISHED
+Provide filtering and search.
+
+86. EXAMINATION WORKFLOW
+The complete examination lifecycle should be:
+Admin/Teacher creates exam        ↓Questions selected        ↓Exam published        ↓Student starts        ↓Exam Mode activated        ↓Timer starts        ↓Answers saved locally        ↓Network monitored        ↓Security monitored        ↓Student completes        ↓Automatic submission        ↓Automatic marking        ↓Score displayed        ↓Result synchronized        ↓Teacher Results page        ↓Result calculation        ↓Approval        ↓Publication        ↓E-Result
+
+87. FULL TERM ACADEMIC WORKFLOW
+The complete school academic workflow should support:
+Academic Session       ↓Term       ↓Classes       ↓Students       ↓Subjects       ↓Teacher Assignment       ↓Timetable       ↓Assignments / Notes / CA       ↓Mid-Term Examination       ↓Mid-Term Results       ↓Approval / Publication       ↓End-of-Term Examination       ↓Combine Mid-Term + End-Term + Configured CA       ↓Final Subject Results       ↓Overall Average       ↓Grade       ↓Position if enabled       ↓Report/Result       ↓Approval       ↓Publication       ↓E-Result
+
+88. SCHOOL CONFIGURATION
+Provide configurable school settings such as:
+School name
+Logo
+Address
+Phone
+Email
+Website
+Academic session
+Current term
+Grading system
+Result configuration
+Position/ranking configuration
+Examination configuration
+Notification preferences
+Email preferences
+School calendar information
+
+89. FILE STORAGE
+Use Supabase Storage for:
+Student photos
+Staff photos
+Assignment attachments
+Notes
+Learning materials
+School gallery
+Documents
+Other permitted school files
+Use appropriate storage access policies.
+Do not expose private files publicly unless intentionally configured as public.
+
+90. PERFORMANCE
+The system should be optimized for schools with potentially thousands of students.
+Implement:
+Pagination
+Search
+Filtering
+Efficient database queries
+Indexed columns
+Lazy loading where appropriate
+Optimized images
+Cached/derived analytics where appropriate
+Efficient Supabase queries
+Do not load thousands of records unnecessarily into the browser.
+
+91. ERROR HANDLING
+Provide useful error states.
+Examples:
+Network unavailableSession expiredUnauthorizedResult not foundStudent not foundExam expiredExam already submittedExam lockedUpload failedSynchronization pendingDuplicate resultInvalid tokenScratch card exhausted
+Do not expose raw database errors to users.
+
+92. AUDITABILITY
+Important operations must be auditable.
+Examples:
+Student created
+Student updated
+Student deleted
+Staff created
+Staff updated
+Staff role changed
+Teacher class changed
+Attendance edited
+Result edited
+Result approved
+Result published
+Assignment created
+Assignment edited
+CBT created
+CBT published
+Exam unlocked
+Local result uploaded
+Payment recorded
+Announcement published
+Except that Super Admin interactions must not enter the normal school audit log.
+
+93. DELETE STRATEGY
+Do not blindly hard-delete important academic records.
+For important historical records, consider:
+Soft deletion
+Archived status
+Deactivation
+especially for:
+Students
+Staff
+Results
+Attendance
+Payments
+Examination attempts
+Historical academic records must remain consistent.
+
+94. DATABASE TRANSACTIONS
+Operations involving multiple related records should use safe transactional logic where appropriate.
+Examples:
+Result submission
+Create result+Create result items+Update status
+Scratch card usage
+Validate token+Check attempts+Create access log+Decrement attempt+Return result
+These operations must not partially succeed.
+
+95. SCRATCH CARD ATOMICITY
+Scratch-card attempts are especially important.
+Two simultaneous requests must not allow:
+1 remaining attempt
+to become:
+-1
+or allow two users/requests to consume the same final attempt incorrectly.
+Use server-side/database atomic operations.
+
+96. CBT SUBMISSION ATOMICITY
+A CBT attempt must not be submitted twice.
+If the student:
+Clicks submit twice
+Loses network
+Reconnects
+Retries upload
+the system must recognize the same attempt.
+Use idempotent submission logic.
+
+97. LOCAL SYNC IDEMPOTENCY
+Synchronization requests must be safe to retry.
+If the same local result is uploaded five times:
+Database should contain ONE valid attempt/result.
+not five duplicate results.
+
+98. SECURITY AND PRIVACY
+Protect student information.
+Do not expose:
+Private student records
+Parent information
+Internal staff information
+Result data
+Scratch tokens
+Internal IDs unnecessarily
+Use least-privilege access.
+
+99. ROUTE STRUCTURE
+A possible Next.js structure:
+app/  (website)/    page.tsx    about/    academics/    admission/    news/    events/    gallery/    contact/    result/  (auth)/    login/    forgot-password/    reset-password/  dashboard/    admin/    teacher/    student-parent/  super-admin/    id-cards/    scratch-cards/    audit-logs/    system-settings/
+Adjust route structure if a better Next.js architecture is required, but preserve the authorization boundaries.
+
+100. API/SERVER ACTION STRUCTURE
+Sensitive operations should be implemented through secure server actions or API endpoints.
+Examples:
+studentsstaffclassessubjectsattendanceassignmentsnotescbtexaminationsresultsscratch-cardsid-cardspaymentsnotificationsanalyticsaudit
+Every sensitive endpoint must verify:
+Authentication
+Role
+Resource scope
+Input validity
+Authorization
+
+101. DEVELOPMENT PHASES
+Build in logical phases.
+PHASE 1 — FOUNDATION
+Implement:
+Next.js project
+TypeScript
+Supabase
+Authentication
+Profiles
+Roles
+Permissions
+School settings
+Sessions
+Terms
+Classes
+Subjects
+Staff
+PHASE 2 — STUDENTS
+Implement:
+Admission
+Student records
+Parent relationships
+Enrollment
+Class assignment
+PHASE 3 — CORE SCHOOL OPERATIONS
+Implement:
+Student attendance
+Staff attendance
+QR attendance
+Manual attendance
+Timetable
+Payment tracking
+Announcements
+Notifications
+PHASE 4 — ACADEMICS
+Implement:
+Assignments
+Notes
+Question bank
+CBT
+Mid-term exam
+End-term exam
+Result engine
+Result approval
+Result publication
+E-result
+Scratch-card system
+PHASE 5 — ADVANCED ANALYTICS
+Implement:
+Student analytics
+Class analytics
+Subject analytics
+Attendance analytics
+Assignment analytics
+CBT analytics
+Payment analytics
+Management dashboard
+PHASE 6 — PUBLIC WEBSITE + EMAIL
+Implement:
+Public website
+CMS
+Online admission
+News
+Events
+Gallery
+E-result
+Resend email automation
+PHASE 7 — SUPER ADMIN
+Implement:
+ID card designer
+ID card generation
+Bulk ID cards
+PDF export
+Scratch-card generation
+Scratch-card assignment
+System settings
+Internal system controls
+PHASE 8 — SECURITY / TESTING / PRODUCTION
+Test:
+RLS
+Role authorization
+Teacher class restrictions
+Subject restrictions
+Super Admin restrictions
+Scratch-card security
+CBT security
+Exam locking
+Exam timer
+Auto-submit
+Offline storage
+Network synchronization
+Result uploads
+Duplicate prevention
+Audit logs
+Responsive design
+Performance
+Production deployment
+
+102. TESTING REQUIREMENTS
+Create tests for critical functionality.
+Authorization tests
+Verify:
+Teacher → cannot access another classTeacher → cannot access another subjectStudent → cannot access another studentParent → cannot access unauthorized childAdmin → can access school recordsSuper Admin → can access system featuresAdmin → cannot access ID cardsAdmin → cannot access scratch-card assignment
+CBT tests
+Verify:
+Timer
+Five-minute warning
+Auto-submit
+Tab switching
+Exam locking
+Staff unlocking
+Local saving
+Offline mode
+Network recovery
+Automatic synchronization
+Manual re-upload
+Duplicate submission prevention
+Result tests
+Verify:
+CBT score automatically appears
+Mid-term result
+End-term result
+Configured weighting
+Result approval
+Result publication
+E-result
+Scratch-card attempts
+
+103. CRITICAL BUSINESS RULES
+These rules must never be accidentally removed during development.
+Rule 1
+Teachers only access students in classes assigned to them.
+Rule 2
+Teachers only manage academic resources within their assigned class/subject scope.
+This applies to:
+CBT questions
+CBT exams
+Assignments
+Notes
+Results
+Rule 3
+Admins can access all school students and staff.
+Rule 4
+Admins can reassign staff roles and classes.
+Rule 5
+Super Admin and School Admin have unrestricted school-wide access, except that Super Admin has additional system-only functions.
+Rule 6
+Only Super Admin can access ID-card management.
+Rule 7
+Only Super Admin can generate/assign scratch-card tokens.
+Rule 8
+ID-card and scratch-card functionality must not even appear in other users’ navigation.
+Rule 9
+Frontend hiding is not security. Backend/RLS authorization is mandatory.
+Rule 10
+CBT scores are automatically recorded from the CBT engine.
+Rule 11
+Teachers should not manually re-enter automatically generated CBT scores.
+Rule 12
+CBT must save progress locally.
+Rule 13
+Network loss must not unnecessarily destroy CBT progress.
+Rule 14
+Pending examination uploads must remain available until successfully synchronized.
+Rule 15
+Students must see their CBT score after submission before leaving the result screen.
+Rule 16
+Less than five minutes remaining must produce a red/blinking timer warning.
+Rule 17
+When time reaches zero, the exam automatically submits.
+Rule 18
+Leaving the detectable examination environment locks the examination.
+Rule 19
+Only authorized staff can unlock a locked exam using a server-validated exam code.
+Rule 20
+Every result-checking scratch card has five attempts per term.
+Rule 21
+Scratch-card attempt deduction must be server-side/database-side and atomic.
+Rule 22
+Mid-term results must remain available for end-of-term result calculation.
+Rule 23
+Result weighting must be configurable.
+Rule 24
+Super Admin interactions must not enter the normal school audit log.
+Rule 25
+Local result uploads must be validated and protected against duplicate submissions.
+
+104. EXPECTED FINAL SYSTEM
+The completed platform should allow the school to operate its major academic and administrative processes digitally.
+A typical lifecycle should look like:
+STUDENT ADMISSION       ↓STUDENT CREATED       ↓CLASS ASSIGNED       ↓PARENT/FAMILY LINKED       ↓TEACHER ASSIGNED       ↓SUBJECTS ASSIGNED       ↓TIMETABLE CREATED       ↓ASSIGNMENTS / NOTES       ↓ATTENDANCE       ↓MID-TERM EXAM       ↓CBT / MANUAL ASSESSMENT       ↓MID-TERM RESULT       ↓APPROVAL       ↓PUBLICATION       ↓END-TERM EXAM       ↓COMBINE CONFIGURED COMPONENTS       ↓FINAL RESULT       ↓APPROVAL       ↓PUBLICATION       ↓SCRATCH-CARD E-RESULT ACCESS
+At the same time:
+STAFF ↓CLASS ASSIGNMENT ↓SUBJECT ASSIGNMENT ↓STUDENT ACCESS ↓ATTENDANCE ↓ASSIGNMENTS ↓NOTES ↓CBT ↓RESULTS
+And:
+SUPER ADMIN ↓ID CARD DESIGN ↓ID CARD GENERATION ↓BULK PDF EXPORTSUPER ADMIN ↓SCRATCH CARD GENERATION ↓STUDENT ASSIGNMENT ↓5 RESULT ACCESS ATTEMPTS
+
+105. IMPLEMENTATION PRINCIPLE
+Do not treat this as a collection of disconnected pages.
+Build it as one integrated school-management platform where:
+AUTHENTICATION      +ROLES      +PERMISSIONS      +ACADEMIC STRUCTURE      +STUDENT DATA      +TEACHER ASSIGNMENTS      +CBT      +RESULTS      +ATTENDANCE      +ASSIGNMENTS      +NOTES      +PAYMENTS      +NOTIFICATIONS      +ANALYTICS      +E-RESULT      +SCRATCH CARDS      +ID CARDS      +AUDIT
+all share the same underlying data model and authorization system.
+Prioritize data integrity, security, role isolation, offline reliability, and maintainability over simply producing a visually complete interface.
+Before implementing complex database tables, validate relationships and workflows so that the final schema correctly supports all requirements above.
+Do not hard-code school-specific grading percentages until the school provides them.
+Do not give teachers access to information outside their assigned class/subject scope.
+Do not expose Super Admin-only functionality to other roles.
+Do not rely on frontend restrictions for authorization.
+The finished system must be production-oriented and suitable for actual deployment to a Nigerian primary/secondary school using Next.js, Supabase, Resend, and Vercel.

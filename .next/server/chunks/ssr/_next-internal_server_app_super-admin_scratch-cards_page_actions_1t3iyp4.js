@@ -1,0 +1,3 @@
+module.exports=[32091,a=>{"use strict";var b=a.i(73100),c=a.i(64215);a.s([],92651),a.i(92651),a.s(["00491063968cf5bab88f06e1222d76fb059a7cc444",()=>c.getAcademicSessions,"00d5251cd4b14bc6ba435f281cfbb9ef88df2a6553",()=>b.getScratchCardBatches,"403fc8e853008a1dc90c6d4bc0e81090b213a7a926",()=>c.getClasses,"408a167aea0b9f4b70a5540208669d6f1a3ed067d6",()=>b.getScratchCards,"40c1d758b7834aef9536267981c9a3605b1072ad02",()=>c.getTerms,"40c991d656ac313c654867d85a95b0f6a794f9d861",()=>b.generateScratchCardBatch],32091)}];
+
+//# sourceMappingURL=_next-internal_server_app_super-admin_scratch-cards_page_actions_1t3iyp4.js.map

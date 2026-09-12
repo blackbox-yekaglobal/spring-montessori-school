@@ -1,0 +1,38 @@
+{
+  "node": {
+    "0059992350934c2188ee88d8b5cd0dafb918066acf": {
+      "workers": {
+        "app/super-admin/audit-logs/page": {
+          "moduleId": 93899,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAuditLogStats",
+      "filename": "src/lib/actions/audit.ts"
+    },
+    "4019073c90629565e2b20d011bc045bdd64408c8a9": {
+      "workers": {
+        "app/super-admin/audit-logs/page": {
+          "moduleId": 93899,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAuditLogs",
+      "filename": "src/lib/actions/audit.ts"
+    },
+    "40c3d452559834998f201585b6919e0f8f4cdd396e": {
+      "workers": {
+        "app/super-admin/audit-logs/page": {
+          "moduleId": 93899,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSecurityLogs",
+      "filename": "src/lib/actions/audit.ts"
+    }
+  },
+  "edge": {}
+}

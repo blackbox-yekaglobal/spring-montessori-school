@@ -1,0 +1,82 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "408a79123f9936d7b9aae51c3a27ef1df5b40bf6dd": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getTimetable",
+      "filename": "src/lib/actions/attendance.ts"
+    },
+    "4089e88b2399d424993b019452a90516068afb4cdd": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createTimetableEntry",
+      "filename": "src/lib/actions/attendance.ts"
+    },
+    "40821bf7e867a8f3499405dea4bf7b6c34ccf68bc0": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteTimetableEntry",
+      "filename": "src/lib/actions/attendance.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0087e627d8eb505601ec9c9e18b715550b9be466d9": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStaffList",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}

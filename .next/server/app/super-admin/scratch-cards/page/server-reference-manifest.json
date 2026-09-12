@@ -1,0 +1,71 @@
+{
+  "node": {
+    "408a167aea0b9f4b70a5540208669d6f1a3ed067d6": {
+      "workers": {
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getScratchCards",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "00d5251cd4b14bc6ba435f281cfbb9ef88df2a6553": {
+      "workers": {
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getScratchCardBatches",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "40c991d656ac313c654867d85a95b0f6a794f9d861": {
+      "workers": {
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "generateScratchCardBatch",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "00491063968cf5bab88f06e1222d76fb059a7cc444": {
+      "workers": {
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAcademicSessions",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "40c1d758b7834aef9536267981c9a3605b1072ad02": {
+      "workers": {
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getTerms",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}

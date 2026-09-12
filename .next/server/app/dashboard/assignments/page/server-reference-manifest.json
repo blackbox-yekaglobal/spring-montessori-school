@@ -1,0 +1,71 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "403f1c246495d8cca025932b4c19c90197fc45d548": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAssignments",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "40d2b3c539299a177d64c9bbca222109a1f257ed52": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createAssignment",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "4068d8a2a13eb5882f80be7268ec8de3d7eb972c2a": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteAssignment",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}

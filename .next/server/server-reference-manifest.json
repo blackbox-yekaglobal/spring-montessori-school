@@ -1,0 +1,2271 @@
+{
+  "node": {
+    "406f43a0797f69b90f0eefef1e0e0a98c35cc8729f": {
+      "workers": {
+        "app/(auth)/forgot-password/page": {
+          "moduleId": 36548,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/auth/actions.ts",
+      "exportedName": "resetPassword"
+    },
+    "608929ba55a5aafd1b3d9bcc1b3e23383d9500c4e8": {
+      "workers": {
+        "app/(auth)/login/page": {
+          "moduleId": 42114,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/auth/actions.ts",
+      "exportedName": "signIn"
+    },
+    "400f5d0e01a26f7ccbc56de45e6204aa74a81e92a9": {
+      "workers": {
+        "app/(public)/contact/page": {
+          "moduleId": 62004,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/app/(public)/contact/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    },
+    "005df2e5f68899037e7f0434842939fdee3fb07850": {
+      "workers": {
+        "app/(public)/contact/page": {
+          "moduleId": 62004,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/email.ts",
+      "exportedName": "getContactMessages"
+    },
+    "4021775cdbb1099e528957ec7bea2409d1b1e857e0": {
+      "workers": {
+        "app/(public)/contact/page": {
+          "moduleId": 62004,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/email.ts",
+      "exportedName": "createContactEmail"
+    },
+    "4025fbbbe19b77a533c42f819d4e94f681a033b12b": {
+      "workers": {
+        "app/(public)/contact/page": {
+          "moduleId": 62004,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/email.ts",
+      "exportedName": "markMessageRead"
+    },
+    "70673017dd81e29583dda8428b296a59bd2a24bc79": {
+      "workers": {
+        "app/(public)/contact/page": {
+          "moduleId": 62004,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/email.ts",
+      "exportedName": "sendEmailNotification"
+    },
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/notifications/page": {
+          "moduleId": 53816,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/page": {
+          "moduleId": 6170,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/payments/page": {
+          "moduleId": 14932,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/new/page": {
+          "moduleId": 92582,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/auth/actions.ts",
+      "exportedName": "signOut"
+    },
+    "000d175f05f2c05491093ade313508aba723e4243d": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/analytics.ts",
+      "exportedName": "getRecentActivities"
+    },
+    "00ab9191001b998805616a4a6e618bd4f1ee50f0ef": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/analytics.ts",
+      "exportedName": "getGenderDistribution"
+    },
+    "00afc37a617d9546f69eee28bf73dd486c67886407": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/analytics.ts",
+      "exportedName": "getDashboardStats"
+    },
+    "00bd7c4a5ea86093cabc8241cbfc114d2f33452f2f": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/analytics.ts",
+      "exportedName": "getClassEnrollment"
+    },
+    "00f0c7d484fb4c8f03deb65b4d319ba6e160a0d99c": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/analytics.ts",
+      "exportedName": "getStaffByRole"
+    },
+    "406e79861cb0086341633ba074343f6df814158fb3": {
+      "workers": {
+        "app/dashboard/analytics/page": {
+          "moduleId": 32445,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/analytics.ts",
+      "exportedName": "getAttendanceTrend"
+    },
+    "40101825be9f96bcd9d5e479e401c80af835a3c833": {
+      "workers": {
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "getAnnouncements"
+    },
+    "405e7ffe43d50bb9c2a5939a9945e6f7be5b247fc0": {
+      "workers": {
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "createAnnouncement"
+    },
+    "4031225b0a4a368fb30bbf9f6cd9bf30c7b325037e": {
+      "workers": {
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "deleteAnnouncement"
+    },
+    "403f1c246495d8cca025932b4c19c90197fc45d548": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "getAssignments"
+    },
+    "40d2b3c539299a177d64c9bbca222109a1f257ed52": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "createAssignment"
+    },
+    "4068d8a2a13eb5882f80be7268ec8de3d7eb972c2a": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "deleteAssignment"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/payments/page": {
+          "moduleId": 14932,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getClasses"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/assignments/page": {
+          "moduleId": 94453,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getSubjects"
+    },
+    "600938ad27792539ebc4871db6e6d733aa9cae2407": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "getAttendanceByClass"
+    },
+    "40d57427998a3a7747cbfc140fcb96293804c9c0b3": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "markAttendance"
+    },
+    "4082ba09fb8672a52a0a15e1f70b5ba4915803e8d7": {
+      "workers": {
+        "app/dashboard/attendance/page": {
+          "moduleId": 2460,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/payments/page": {
+          "moduleId": 14932,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "getStudentList"
+    },
+    "40da92fb88296ec117c23e513b33d8aab4c8668c79": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "getExaminations"
+    },
+    "407b7ca8a4beee8ed11dfd8e871de14d3943db681e": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "createExam"
+    },
+    "40c970aa41fd304df451dd9f21970f1c4d0720329f": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "deleteExam"
+    },
+    "00491063968cf5bab88f06e1222d76fb059a7cc444": {
+      "workers": {
+        "app/dashboard/cbt/page": {
+          "moduleId": 96035,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getAcademicSessions"
+    },
+    "401934c6bce7e3ae540344271326ec0b673e64e4c9": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "getExamById"
+    },
+    "40ef7da45afa1a87f2be8a89aa66e8289312a5a470": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "getExamQuestions"
+    },
+    "40d5bef448dc161080c6476f4aca21214256cdc6f9": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "getQuestions"
+    },
+    "7847b4d01fe619d47ff5dc74bc0ccee40d77d96379": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "addQuestionToExam"
+    },
+    "60c3955cf3af943f9a0a7bf5341859524689ec6e90": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "removeQuestionFromExam"
+    },
+    "607f86bf80a767c90126683a3bbbc4771921fd4d7e": {
+      "workers": {
+        "app/dashboard/cbt/exam/[id]/page": {
+          "moduleId": 69489,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "updateExam"
+    },
+    "00645a7d8a908485399d164e8daa543cd6ffe9af16": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getSchoolSettings"
+    },
+    "0087e627d8eb505601ec9c9e18b715550b9be466d9": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getStaffList"
+    },
+    "4042406d7988ee59515e328cee0d7d0fe7a0c35d33": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "createSubject"
+    },
+    "4042c02921c5705f041dec2eaae6a10f34d41fa85c": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "deleteSubject"
+    },
+    "4069f2e916e35f59d9c22712120e710135903bd920": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "createAcademicSession"
+    },
+    "406fba302d892054d4469cb18f8e908c3fbfb8aa9a": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getClassSubjects"
+    },
+    "408e4f218512de2fc965f63bc13abbd1dd28ba0d8d": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "deleteClass"
+    },
+    "408ec9bf79476b56ce8acd7fd2297fa155b0a0c464": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "deleteTerm"
+    },
+    "409a8b766a6f5db87450666f24d809774f5e885bcc": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "updateSchoolSettings"
+    },
+    "40ad584c7b80eb975e486cd25f8365325a4ad46918": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "createTerm"
+    },
+    "40c1d758b7834aef9536267981c9a3605b1072ad02": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getTerms"
+    },
+    "40cf31e2d57d6b9ec7e380882c39c59e7edba5f365": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "deleteAcademicSession"
+    },
+    "40ef618e8bad5542df0efb7c6d46a4b86be186259d": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "createClass"
+    },
+    "40fe6a995154ef9960fe8466779bfb358ff3af097b": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "getClassById"
+    },
+    "600cf6500fc127ffeb5c8c8e30cf53ee4b53acdc11": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "updateAcademicSession"
+    },
+    "6045d1170036754fe22731e570a56ce7c3a4846b6a": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "updateClass"
+    },
+    "6059c4547dff6c8023581576795f71712899b53da0": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "updateSubject"
+    },
+    "60629ee260aa5f407669fd99c9acbfa833ff65f25c": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "updateTerm"
+    },
+    "6097a1857d3c605feb95e1538fae4d5abc31701409": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "removeSubjectFromClass"
+    },
+    "60e93d691aeff242c62eb3ecb7904dfd6957dd33b6": {
+      "workers": {
+        "app/dashboard/classes/page": {
+          "moduleId": 83130,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/sessions/page": {
+          "moduleId": 46357,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/system-settings/page": {
+          "moduleId": 15536,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/academic.ts",
+      "exportedName": "assignSubjectToClass"
+    },
+    "40886b9684c9848c7059d2419576065d8fae793e53": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "getNotes"
+    },
+    "40821b9951582a66b3206234f28a235c0135435ad4": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "createNote"
+    },
+    "405b277ed5ee4e61b708684a10bf428311e291bc99": {
+      "workers": {
+        "app/dashboard/notes/page": {
+          "moduleId": 8012,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/communications.ts",
+      "exportedName": "deleteNote"
+    },
+    "40dede6b9b4074f75dfb212f3b0b5f3d86cae9023b": {
+      "workers": {
+        "app/dashboard/payments/page": {
+          "moduleId": 14932,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "getPayments"
+    },
+    "40184bcc821d845b5070f479a23400a33691712c88": {
+      "workers": {
+        "app/dashboard/payments/page": {
+          "moduleId": 14932,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "createPayment"
+    },
+    "7023b6000a14c24688f5e1254a8c149befa01cc797": {
+      "workers": {
+        "app/dashboard/payments/page": {
+          "moduleId": 14932,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "updatePaymentStatus"
+    },
+    "401b38c7220ce273e59416d3b561221d4a893a7406": {
+      "workers": {
+        "app/dashboard/payments/page": {
+          "moduleId": 14932,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "getPaymentSummary"
+    },
+    "40b9037a8c53a72b8a13c35da8522fa895a4792bce": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "createQuestion"
+    },
+    "4095158b3f329b98284484f0a43cf80f994ba96597": {
+      "workers": {
+        "app/dashboard/question-bank/page": {
+          "moduleId": 84646,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/cbt.ts",
+      "exportedName": "deleteQuestion"
+    },
+    "409fe796b79d60773c2f8f47f680f969b577d4b409": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "getResults"
+    },
+    "40337ab384c0ad4e65489b10fba1ffbbc5f8b3f4b6": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "createResult"
+    },
+    "4063126c4b44b9489e65710a63d6556962737ca787": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "approveResults"
+    },
+    "4092396cb31a624d4dcb1afa5325a68aaed01d1dbb": {
+      "workers": {
+        "app/dashboard/results/page": {
+          "moduleId": 99739,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "publishResults"
+    },
+    "40040f0e7d6726653844e9b0bf0c404552fdbceafd": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "getStaffList"
+    },
+    "403143928420c66cc3b1ffaac36df7de812bb0c86f": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "softDeleteStaff"
+    },
+    "4036a06c5c906fb0a584955d9902b23f9f6ff4d8c9": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/new/page": {
+          "moduleId": 92582,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "createStaff"
+    },
+    "40cce07a4893726373cba4fa42bbf3093d3bfb029a": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "deactivateStaff"
+    },
+    "40f269f2af33d2397f09038b3ab6229868f90891fd": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "getStaffById"
+    },
+    "40fcb3cbea5d4e2179076cca37da280faae8a74020": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "getStaffWithClasses"
+    },
+    "6001e956d361ab7fc16b14f4402dda0f2ab1b05fd6": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "assignTeacherToClass"
+    },
+    "609bf3748262290320ce6aa7a9791c35401bef7a86": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/new/page": {
+          "moduleId": 92582,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "updateStaff"
+    },
+    "60ca022b9202ccdacd14574adb2da068c967fdc29f": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "removeTeacherFromClass"
+    },
+    "70bc61f1dbead8bdc964a7d5d9b2e10ccf918ff2d4": {
+      "workers": {
+        "app/dashboard/staff/[id]/page": {
+          "moduleId": 21913,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/staff/page": {
+          "moduleId": 41565,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/staff.ts",
+      "exportedName": "createStaffUserAccount"
+    },
+    "005376411716bca4ad50b0175441a7d5cd56516d96": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "getFamilies"
+    },
+    "402388feff6901d5d95824ba09ed66e3604ee6fd5a": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "createFamily"
+    },
+    "40441068c8df43fddba09803d1be841b02d736aede": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "softDeleteStudent"
+    },
+    "4045888470f19afc72f766056c06d59bc290097493": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "getFamilyById"
+    },
+    "40a793d76a52bafacb1bbf6d10bad7774f8d93779d": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "getParentChildren"
+    },
+    "40b2787c98927c97898334552ac62605410f810f5b": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "createStudent"
+    },
+    "40fe88aab188c0475ba2ec48f874d053a0cfa77c9e": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "getStudentById"
+    },
+    "601600aec8361f694852b7aa61a7fa12ee2cc9e0df": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/new/page": {
+          "moduleId": 60487,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "updateStudent"
+    },
+    "60e6fd77899836193e68f23d945854f3f386cd3752": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "unlinkStudentFromFamily"
+    },
+    "60fd53982430d9ba02615f9a61487e07ee5873fb36": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "linkStudentToFamily"
+    },
+    "703acf82f81878d0bdc17b20f5c16f2682dbe60852": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "promoteStudents"
+    },
+    "70e90a573f9e41648491ae289c8e15a84b2d532853": {
+      "workers": {
+        "app/dashboard/students/[id]/page": {
+          "moduleId": 31157,
+          "async": false,
+          "codeHash": null
+        },
+        "app/dashboard/students/page": {
+          "moduleId": 78138,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/students.ts",
+      "exportedName": "createParentUserAccount"
+    },
+    "408a79123f9936d7b9aae51c3a27ef1df5b40bf6dd": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "getTimetable"
+    },
+    "4089e88b2399d424993b019452a90516068afb4cdd": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "createTimetableEntry"
+    },
+    "40821bf7e867a8f3499405dea4bf7b6c34ccf68bc0": {
+      "workers": {
+        "app/dashboard/timetable/page": {
+          "moduleId": 69084,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/attendance.ts",
+      "exportedName": "deleteTimetableEntry"
+    },
+    "0059992350934c2188ee88d8b5cd0dafb918066acf": {
+      "workers": {
+        "app/super-admin/audit-logs/page": {
+          "moduleId": 93899,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/audit.ts",
+      "exportedName": "getAuditLogStats"
+    },
+    "4019073c90629565e2b20d011bc045bdd64408c8a9": {
+      "workers": {
+        "app/super-admin/audit-logs/page": {
+          "moduleId": 93899,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/audit.ts",
+      "exportedName": "getAuditLogs"
+    },
+    "40c3d452559834998f201585b6919e0f8f4cdd396e": {
+      "workers": {
+        "app/super-admin/audit-logs/page": {
+          "moduleId": 93899,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/audit.ts",
+      "exportedName": "getSecurityLogs"
+    },
+    "00d5251cd4b14bc6ba435f281cfbb9ef88df2a6553": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "getScratchCardBatches"
+    },
+    "401602092eaea3edd5449c3c5333ab4c629e682312": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "consumeScratchCard"
+    },
+    "402b2886007acaa31dceffa8edbdfbfb1f98ec645c": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "getIDCards"
+    },
+    "403fd6104040c85eeb51064b7c26bca72272d105e7": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "saveResultConfig"
+    },
+    "408a167aea0b9f4b70a5540208669d6f1a3ed067d6": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "getScratchCards"
+    },
+    "408f8dc730f06486742c875b72e131e8bc624b0270": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "getResultConfig"
+    },
+    "40c991d656ac313c654867d85a95b0f6a794f9d861": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        },
+        "app/super-admin/scratch-cards/page": {
+          "moduleId": 32091,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "generateScratchCardBatch"
+    },
+    "6059de030f580ea2000b0a8d0f0376c31638f2bdf9": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "updateResult"
+    },
+    "60fc864f6ee7f4c02a9d611ecc602d896386079f10": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "filename": "src/lib/actions/results.ts",
+      "exportedName": "generateIDCards"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "JNbnUWqbBMGjrd8c7RzfTp0G7sB3dWJD79Yb6194E9w="
+}

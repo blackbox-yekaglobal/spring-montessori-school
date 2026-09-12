@@ -1,0 +1,401 @@
+{
+  "node": {
+    "00d5251cd4b14bc6ba435f281cfbb9ef88df2a6553": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getScratchCardBatches",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "401602092eaea3edd5449c3c5333ab4c629e682312": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "consumeScratchCard",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "402b2886007acaa31dceffa8edbdfbfb1f98ec645c": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getIDCards",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "40337ab384c0ad4e65489b10fba1ffbbc5f8b3f4b6": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createResult",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "403fd6104040c85eeb51064b7c26bca72272d105e7": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "saveResultConfig",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "4063126c4b44b9489e65710a63d6556962737ca787": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "approveResults",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "408a167aea0b9f4b70a5540208669d6f1a3ed067d6": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getScratchCards",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "408f8dc730f06486742c875b72e131e8bc624b0270": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getResultConfig",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "4092396cb31a624d4dcb1afa5325a68aaed01d1dbb": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "publishResults",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "409fe796b79d60773c2f8f47f680f969b577d4b409": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getResults",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "40c991d656ac313c654867d85a95b0f6a794f9d861": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "generateScratchCardBatch",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "6059de030f580ea2000b0a8d0f0376c31638f2bdf9": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateResult",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "60fc864f6ee7f4c02a9d611ecc602d896386079f10": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "generateIDCards",
+      "filename": "src/lib/actions/results.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "00491063968cf5bab88f06e1222d76fb059a7cc444": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAcademicSessions",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "00645a7d8a908485399d164e8daa543cd6ffe9af16": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSchoolSettings",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "0087e627d8eb505601ec9c9e18b715550b9be466d9": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getStaffList",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "403fc8e853008a1dc90c6d4bc0e81090b213a7a926": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClasses",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "4042406d7988ee59515e328cee0d7d0fe7a0c35d33": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createSubject",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "4042c02921c5705f041dec2eaae6a10f34d41fa85c": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteSubject",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "4069f2e916e35f59d9c22712120e710135903bd920": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createAcademicSession",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "406fba302d892054d4469cb18f8e908c3fbfb8aa9a": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClassSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "408e4f218512de2fc965f63bc13abbd1dd28ba0d8d": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteClass",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "408ec9bf79476b56ce8acd7fd2297fa155b0a0c464": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteTerm",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "409a8b766a6f5db87450666f24d809774f5e885bcc": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateSchoolSettings",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "40ad584c7b80eb975e486cd25f8365325a4ad46918": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createTerm",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "40c1d758b7834aef9536267981c9a3605b1072ad02": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getTerms",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "40cf31e2d57d6b9ec7e380882c39c59e7edba5f365": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteAcademicSession",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "40ef618e8bad5542df0efb7c6d46a4b86be186259d": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createClass",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "40fe6a995154ef9960fe8466779bfb358ff3af097b": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getClassById",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "600cf6500fc127ffeb5c8c8e30cf53ee4b53acdc11": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateAcademicSession",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "6045d1170036754fe22731e570a56ce7c3a4846b6a": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateClass",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "6059c4547dff6c8023581576795f71712899b53da0": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateSubject",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "60629ee260aa5f407669fd99c9acbfa833ff65f25c": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateTerm",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "6097a1857d3c605feb95e1538fae4d5abc31701409": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "removeSubjectFromClass",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "60e93d691aeff242c62eb3ecb7904dfd6957dd33b6": {
+      "workers": {
+        "app/super-admin/id-cards/page": {
+          "moduleId": 86484,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "assignSubjectToClass",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}

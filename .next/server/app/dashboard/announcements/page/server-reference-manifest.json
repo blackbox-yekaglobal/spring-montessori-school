@@ -1,0 +1,49 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "40101825be9f96bcd9d5e479e401c80af835a3c833": {
+      "workers": {
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getAnnouncements",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "405e7ffe43d50bb9c2a5939a9945e6f7be5b247fc0": {
+      "workers": {
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createAnnouncement",
+      "filename": "src/lib/actions/communications.ts"
+    },
+    "4031225b0a4a368fb30bbf9f6cd9bf30c7b325037e": {
+      "workers": {
+        "app/dashboard/announcements/page": {
+          "moduleId": 20982,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteAnnouncement",
+      "filename": "src/lib/actions/communications.ts"
+    }
+  },
+  "edge": {}
+}

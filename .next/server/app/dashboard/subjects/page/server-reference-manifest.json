@@ -1,0 +1,60 @@
+{
+  "node": {
+    "0053769af12337fe3acd254027effcc3ada073c161": {
+      "workers": {
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "signOut",
+      "filename": "src/lib/auth/actions.ts"
+    },
+    "0023cce0ad90a89bae66c1a2b8347014c915c33fce": {
+      "workers": {
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "getSubjects",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "4042406d7988ee59515e328cee0d7d0fe7a0c35d33": {
+      "workers": {
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createSubject",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "6059c4547dff6c8023581576795f71712899b53da0": {
+      "workers": {
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "updateSubject",
+      "filename": "src/lib/actions/academic.ts"
+    },
+    "4042c02921c5705f041dec2eaae6a10f34d41fa85c": {
+      "workers": {
+        "app/dashboard/subjects/page": {
+          "moduleId": 72994,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteSubject",
+      "filename": "src/lib/actions/academic.ts"
+    }
+  },
+  "edge": {}
+}
